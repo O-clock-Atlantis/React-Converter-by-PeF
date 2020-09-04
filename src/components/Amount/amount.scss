@@ -1,0 +1,17 @@
+@import 'src/styles/vars';
+
+.amount{
+
+  background-color: $color-light;
+  padding: ($gutter + rem);
+  text-align: center;
+  color: $color;
+  &-converted {
+    font-size: 2em;
+    font-weight: $title;
+  }
+  &-currency {
+    font-size: 1.3em;
+    margin-top: ($gutter + rem);
+  }
+}

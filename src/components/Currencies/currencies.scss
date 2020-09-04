@@ -1,0 +1,29 @@
+@import 'src/styles/vars';
+
+.currencies  {
+
+  background-color: $color-light;
+  text-align: left;
+
+  &-title {
+    padding: ($gutter + rem);
+    font-weight: $title;
+  }
+  &-list {
+    height: 500px;
+    overflow: auto;
+
+  }
+
+  .currency {
+    padding: ($gutter + rem);
+    border-top: 1px solid $color-alt;
+    font-weight: $list;
+    transition: background-color $transition-fast, background-color $transition-slow;
+    &:hover {
+      background-color: $color-alt;
+      cursor: pointer;
+    }
+  }
+
+}

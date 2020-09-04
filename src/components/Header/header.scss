@@ -1,0 +1,21 @@
+@import 'src/styles/vars';
+
+.header {
+  background-color: $color;
+  color: $color-light;
+  text-align: center;
+  padding: (2*$gutter + rem);
+   &-title {
+     font-size: 2em;
+     font-weight: $title;
+   }
+   &-amount {
+     display: block;
+     margin-top: (2*$gutter + rem);
+   }
+   &-search {
+     margin-top: 1em;
+     font-size: 1.3em;
+     border-radius: 5px;
+   }
+}
